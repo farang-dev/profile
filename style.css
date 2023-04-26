@@ -47,6 +47,7 @@ a:hover {
   background: #f0e7de;
   padding: 50px;
   margin: 20px;
+  border: 1.5px solid rgb(0, 173, 95);
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
