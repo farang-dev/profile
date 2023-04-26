@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Roboto:wght@300;500;700&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background: #A9D9D0;
+}
+
+h1, h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #027373;
+}
+
+a {
+  color:#038C7F;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-blue {
+  background-color: #038C7F;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color:rgb(212, 209, 1);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  text-align: center;
+  background: #f0e7de;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #038C7F;
+}
+
+.list-inline i:hover {
+  color:rgb(212, 209, 1);
+}
+
+#profile_pic {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .list-inline i {
+  font-size: 30px;
+  }
+
+}
